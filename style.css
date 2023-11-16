@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(245,238,224);
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #000;
+    padding: 5px;
+    text-align: center;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+}
+
+.input-field{
+    display: flex;
+    border:#ECAC5D ;
+
+}
+#search{
+
+    flex: 1;
+    margin: 50px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    color: #ECAC5D;
+}
+
+
+.album {
+    background-color:rgb(245,238,224); 
+}
+.container{
+    background-color:rgb(245,238,224); 
+}
+.btn:hover{
+    background-color: rgb(255,111,0);
+}
+.card-text,.btn{
+    font-family: 'Roboto', sans-serif; 
+}
+
+.img{
+    margin: 20px;
+}
+li{
+    padding: 10px;
+}
+.receipts{
+    display: flex;
+}
+.accordion-button{
+    background-color: #F3D5C0;
+}
+
+.badge{
+    background-color: #C89595;
+}
+
+
+@media all and (max-width: 800px){
+
+    .receipts{
+        display: flex;
+       flex-direction: column;
+      align-items: center;
+    } 
+    .img{
+        width:200px;
+        height:150px ;
+    }
+h1{
+    font-size: 30px;
+}
+    
+}
+@media all and (max-width: 500px){
+
+    .receipts{
+        display: flex;
+       flex-direction: column;
+      align-items: center;
+    } 
+    img{
+        width:300px;
+        height:250px ;
+    }
+h1{
+    font-size: 30px;
+}
+    
+}
+media all and (max-width: 300px){
+
+    .receipts{
+        display: flex;
+       flex-direction: column;
+      align-items: center;
+    } 
+    img{
+        width:300px;
+        height:250px ;
+    }
+h1{
+    font-size: 30px;
+}
+    
